@@ -1,0 +1,44 @@
+Statistics for 'Size (Mb)':
+count     8302.000000
+mean       401.918437
+std       1111.538289
+min          0.011236
+25%         19.249775
+50%         39.559700
+75%        258.848000
+max      32396.400000
+Name: Size (Mb), dtype: float64
+
+Homo sapiens:
+           Species  Kingdom  ... Publication year  Assembly status
+44    Homo sapiens  Animals  ...             2002       Chromosome
+4993  Homo sapiens  Animals  ...             2004       Chromosome
+5059  Homo sapiens  Animals  ...             2007       Chromosome
+5673  Homo sapiens  Animals  ...             2008       Chromosome
+5721  Homo sapiens  Animals  ...             2007       Chromosome
+...            ...      ...  ...              ...              ...
+7783  Homo sapiens  Animals  ...             2017         Scaffold
+7784  Homo sapiens  Animals  ...             2017         Scaffold
+7789  Homo sapiens  Animals  ...             2017         Scaffold
+7790  Homo sapiens  Animals  ...             2017         Scaffold
+7793  Homo sapiens  Animals  ...             2017         Scaffold
+
+[210 rows x 9 columns]
+
+correlation['Size (Mb)']['Number of genes']: 0.47151787246798166
+
+Small genomes:
+                         Species   Kingdom  ... Publication year  Assembly status
+0     Emiliania huxleyi CCMP1516  Protists  ...             2013         Scaffold
+1           Arabidopsis thaliana    Plants  ...             2001       Chromosome
+2                    Glycine max    Plants  ...             2010       Chromosome
+3            Medicago truncatula    Plants  ...             2011       Chromosome
+4           Solanum lycopersicum    Plants  ...             2010       Chromosome
+...                          ...       ...  ...              ...              ...
+8297    Saccharomyces cerevisiae     Fungi  ...             2017         Scaffold
+8298    Saccharomyces cerevisiae     Fungi  ...             1992       Chromosome
+8299    Saccharomyces cerevisiae     Fungi  ...             2018       Chromosome
+8300    Saccharomyces cerevisiae     Fungi  ...             2018       Chromosome
+8301    Saccharomyces cerevisiae     Fungi  ...             2018       Chromosome
+
+[8260 rows x 9 columns]
